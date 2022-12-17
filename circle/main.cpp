@@ -3,6 +3,12 @@
 
 using namespace std;
 
+
+/*
+*  개별 모듈은 g++ -c 파일명
+*  메인 모듈은 g++ -o 메인파일명 개별파일의 o 파일들 
+*/
+
 int main() {
 
     Circle donut;
