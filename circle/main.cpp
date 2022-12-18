@@ -1,12 +1,14 @@
 #include <iostream>
-#include "circle.h"
+#include "circle1.h"
 
 using namespace std;
 
 
 /*
-*  개별 모듈은 g++ -c 파일명
-*  메인 모듈은 g++ -o 메인파일명 개별파일의 o 파일들 
+*  개별 모듈을 컴파일 할 때 :  g++ -c 파일명
+*  g++ -c foo.cpp
+*  여러 모듈을 실행파일로 만들 때 : 메인 모듈은 g++ -o 메인파일명 개별파일의 o 파일들 
+*  g++ -o exe_name main.cpp foo.o
 */
 
 int main() {
@@ -25,5 +27,5 @@ int main() {
     Circle circle(50);
     cout << " circle 의 면적 " << circle.getArea() << endl;
     
-
+    return 0; 
 }

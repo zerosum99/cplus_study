@@ -1,6 +1,6 @@
 
-#ifndef CIRCLE_H
-#define CIRCLE_H
+#ifndef CIRCLE1_H
+#define CIRCLE1_H
 
 class Circle {
 public : 
