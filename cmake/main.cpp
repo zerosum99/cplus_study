@@ -13,6 +13,7 @@ using namespace std;
 * *****
 * 실제 실행파일이 만들어진다. 
 * 참고자료 : https://reakwon.tistory.com/123
+* 참고자료 (cmake) : https://junstar92.tistory.com/204
 */
 
 
